@@ -2,6 +2,5 @@ var http = require('http');
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-<<<<<<< HEAD
   res.end('Hello World from aakarshee');
 }).listen(3020);
